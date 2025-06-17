@@ -43,6 +43,10 @@
   * `(ArrowPlus p, Profunctor p) => ArrowPlus (Coyoneda p)`
   * `(ArrowApply p, Profunctor p) => ArrowApply (Coyoneda p)`
 
+5.6.3 [2025.06.17]
+------------------
+* Drop support for pre-8.0 versions of GHC.
+
 5.6.2 [2021.02.17]
 ------------------
 * Add `Semigroup` and `Monoid` instances for `Forget`
